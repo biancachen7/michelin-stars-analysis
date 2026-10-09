@@ -1,0 +1,2 @@
+# Keep the generated map (inline data) out of GitHub's language stats
+index.html linguist-generated=true
