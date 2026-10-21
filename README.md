@@ -1,6 +1,6 @@
 # Is a High Price a Prerequisite for Three MICHELIN Stars?
 
-A data wrangling and data science analysis of **19,720 MICHELIN Guide restaurants**, built from a Northeastern University MISM 6405 (Data Wrangling for Business) group project and extended with statistical modelling, machine learning and text analytics.
+A data wrangling and data science analysis of **19,720 MICHELIN Guide restaurants**, built from a Northeastern University MISM 6405 (Data Wrangling for Business) group project 
 
 **[Explore the interactive map →](https://biancachen7.github.io/michelin-stars-analysis/)**
 
