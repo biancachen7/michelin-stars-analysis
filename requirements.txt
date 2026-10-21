@@ -5,5 +5,4 @@ seaborn
 scipy
 statsmodels
 scikit-learn
-jupyter
 shap

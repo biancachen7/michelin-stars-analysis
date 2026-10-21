@@ -21,20 +21,19 @@ pandas data cleaning and feature engineering (price symbols → ordinal levels, 
 ## Repository
 | File | Contents |
 |---|---|
-| `michelin_price_vs_stars.ipynb` | Full analysis with outputs |
 | `data/michelin_my_maps.csv` | Raw data ([Kaggle, Jerry Ng](https://www.kaggle.com/datasets/ngshiheng/michelin-guide-restaurants-2021)) |
 | `data/michelin_clean.csv` | Cleaned, analysis-ready table (also used for Excel/Tableau) |
 | `data/star_candidates.csv` | Star-potential score for every unstarred restaurant |
 | `index.html` | Interactive world map with award filters and the star-potential layer |
-| `data/map_data.json` | Map data exported by the notebook: out-of-fold star probability and top-3 SHAP reasons per restaurant |
+| `data/map_data.json` | Map data exported by the analysis script: out-of-fold star probability and top-3 SHAP reasons per restaurant |
 | `michelin_cleaning_excel.xlsx` | The same cleaning pipeline as Excel formulas, with a validation sheet |
-| `michelin_code_only.py` | The notebook as a plain Python script |
+| `michelin_code_only.py` | Full analysis as a Python script |
 | `requirements.txt` | Python dependencies |
 
 ## Run it
 ```bash
 pip install -r requirements.txt
-jupyter notebook michelin_price_vs_stars.ipynb
+python michelin_code_only.py
 ```
 
 ## Limitations
